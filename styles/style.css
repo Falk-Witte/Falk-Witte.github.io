@@ -1,0 +1,32 @@
+h1 {
+    font-size: 30px;
+    color: black;
+    text-align: center;
+    line-height: 3;
+}
+
+html {
+    background-color:burlywood;
+}
+
+p{
+    font-size: 20px;
+    text-align: center;
+    line-height: 3;
+}
+
+a {
+    color:black;
+}
+
+div {
+    height: 200px;
+    width: 400px;
+    background: burlywood;
+
+    position: fixed;
+    top: 30%;
+    left: 50%;
+    margin-top: -100px;
+    margin-left: -200px;
+}
