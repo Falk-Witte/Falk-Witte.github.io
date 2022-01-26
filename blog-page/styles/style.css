@@ -25,3 +25,21 @@ div {
     margin-top: -100px;
     margin-left: -200px;
 }
+
+ a {
+     font-size: 20px;
+     text-align: center;
+     line-height: 3;
+ }
+
+ #block1 {
+    height: 30px;
+    width: 100px;
+    background: burlywood;
+
+    position: fixed;
+    top: 98%;
+    left: 58%;
+    margin-top: -100px;
+    margin-left: -200px;
+ }
