@@ -3,15 +3,15 @@ html {
 }
 
 h1 {
-    text-align: center;
     font-size: 30px;
-    line-height: 6;
+    line-height:3;
+    text-align:center;
 }
 
-li {
-    text-align: left;
+p {
+    text-align: center;
     font-size: 20px;
-    line-height: 3;
+    line-height: 2
 }
 
 div {
@@ -20,26 +20,10 @@ div {
     background: burlywood;
 
     position: fixed;
-    top: 27%;
-    left: 54.5%;
+    top: 20%;
+    left: 50%;
     margin-top: -100px;
     margin-left: -200px;
 }
 
- a {
-     font-size: 20px;
-     text-align: center;
-     line-height: 3;
- }
 
- #block1 {
-    height: 30px;
-    width: 100px;
-    background: burlywood;
-
-    position: fixed;
-    top: 98%;
-    left: 58%;
-    margin-top: -100px;
-    margin-left: -200px;
- }
