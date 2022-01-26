@@ -1,0 +1,27 @@
+html {
+    background-color: burlywood;
+}
+
+h1 {
+    text-align: center;
+    font-size: 30px;
+    line-height: 6;
+}
+
+li {
+    text-align: left;
+    font-size: 20px;
+    line-height: 3;
+}
+
+div {
+    height: 200px;
+    width: 400px;
+    background: burlywood;
+
+    position: fixed;
+    top: 27%;
+    left: 54.5%;
+    margin-top: -100px;
+    margin-left: -200px;
+}
