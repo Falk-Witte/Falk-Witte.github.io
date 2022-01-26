@@ -3,10 +3,21 @@ h1 {
     text-align: center;
 }
 
-a p {
+p {
     text-align: center;
 }
 
+div {
+    height: 200px;
+    width: 400px;
+    background: burlywood;
+
+    position: fixed;
+    top: 30%;
+    left: 50%;
+    margin-top: -100px;
+    margin-left: -200px;
+}
 
 html {
     background-color: burlywood;
