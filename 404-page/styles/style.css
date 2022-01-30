@@ -1,3 +1,7 @@
+html {
+    background-color: burlywood;
+}
+
 h1 {
     font-size: 60px;
     text-align: center;
@@ -5,20 +9,4 @@ h1 {
 
 p {
     text-align: center;
-}
-
-div {
-    height: 200px;
-    width: 400px;
-    background: burlywood;
-
-    position: fixed;
-    top: 30%;
-    left: 50%;
-    margin-top: -100px;
-    margin-left: -200px;
-}
-
-html {
-    background-color: burlywood;
 }
