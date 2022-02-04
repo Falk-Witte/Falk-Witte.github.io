@@ -1,0 +1,21 @@
+html {
+    background-color: burlywood;
+}
+
+h1 {
+    font-size: 30px;
+    text-align: center;
+    line-height: 3;
+}
+
+p {
+    font-size: 20px;
+    text-align: center;
+    line-height: 3;
+}
+
+li {
+    text-align: center;
+    font-size: 20px;
+    line-height: 3;
+}
