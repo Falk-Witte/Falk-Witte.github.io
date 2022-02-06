@@ -17,3 +17,7 @@ p {
     text-align:center;
     line-height:3;
 }
+
+a {
+    color:rgb(129, 40, 40);
+}
