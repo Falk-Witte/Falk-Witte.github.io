@@ -20,4 +20,9 @@ p {
 
 a {
     color:rgb(129, 40, 40);
+    text-decoration:none;
+}
+
+a:hover{
+    text-decoration:underline;
 }
