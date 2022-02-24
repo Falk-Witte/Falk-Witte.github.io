@@ -1,31 +1,6 @@
-h1 {
-    font-size: 30px;
-    color: black;
-    text-align: center;
-    line-height: 3;
-}
-
 html {
     background-color:burlywood;
-}
-
-p{
-    font-size: 20px;
-    text-align: center;
-    line-height: 3;
-}
-
-a {
-    color:black;
-    text-decoration:none;
-}
-
-a:hover {
-    text-decoration:underline;
-}
-
-a.headerlink {
-    text-decoration:none;
+    font-family:Roboto;
 }
 
 div {
@@ -34,8 +9,42 @@ div {
     background: burlywood;
 
     position: fixed;
-    top: 30%;
+    top: 20%;
     left: 50%;
     margin-top: -100px;
     margin-left: -200px;
+}
+
+h1 {
+    font-size: 50px;
+    color: black;
+    text-align: center;
+    line-height: 3;
+}
+
+h1.headerlink:hover{
+    color:brown;
+}
+
+p{
+    font-size: 30px;
+    text-align: center;
+    line-height: 2.5;
+}
+
+p:hover {
+    font-size: 40px;
+    text-align:center;
+    line-height: 2;
+    color:brown;
+}
+
+a {
+    color:black;
+    text-decoration:none;
+}
+
+a:hover {
+    color:brown;
+    text-decoration:unerline;
 }
