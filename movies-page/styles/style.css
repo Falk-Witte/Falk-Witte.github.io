@@ -20,7 +20,7 @@ p {
     font-size: 30px;
     line-height: 2;
 }
-
+/*change font size for smaller windows or mobile phones*/
 @media (max-width: 70em) {
     h1 {
         font-size: 100px;

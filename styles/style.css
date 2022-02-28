@@ -41,6 +41,7 @@ a:hover {
     text-decoration:unerline;
 }
 
+/*change font size for smaller windows or mobile phones*/
 @media (max-width: 70em){
 
     h1 {
