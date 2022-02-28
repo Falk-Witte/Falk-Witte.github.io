@@ -50,6 +50,7 @@ a:hover {
 
     p {
         font-size: 80px;
+        text-decoration: underline;
     }
 
     p:hover {
