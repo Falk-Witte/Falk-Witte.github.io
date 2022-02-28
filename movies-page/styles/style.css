@@ -21,3 +21,17 @@ p {
     line-height: 2;
 }
 
+@media (max-width: 70em) {
+    h1 {
+        font-size: 100px;
+    }
+
+    #description {
+        font-size: 80px;
+    }
+
+    p {
+        font-size: 80px;
+    }
+
+}

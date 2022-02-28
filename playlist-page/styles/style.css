@@ -27,3 +27,13 @@ a {
 a:hover{
     text-decoration:underline;
 }
+
+@media (max-width: 70em) {
+    h1 {
+        font-size: 100px;
+    }
+
+    p {
+        font-size: 80px
+    }
+}

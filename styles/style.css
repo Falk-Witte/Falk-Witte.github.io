@@ -3,16 +3,8 @@ html {
     font-family:Roboto;
 }
 
-div {
-    height: 200px;
-    width: 400px;
-    background: burlywood;
-
-    position: fixed;
-    top: 20%;
-    left: 50%;
-    margin-top: -100px;
-    margin-left: -200px;
+body {
+    padding-top: 90px;
 }
 
 h1 {
@@ -47,4 +39,20 @@ a {
 a:hover {
     color:brown;
     text-decoration:unerline;
+}
+
+@media (max-width: 70em){
+
+    h1 {
+        font-size: 100px;
+    }
+
+    p {
+        font-size: 80px;
+    }
+
+    p:hover {
+        font-size: 85px;
+    }
+
 }
