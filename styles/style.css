@@ -55,7 +55,7 @@ a:hover {
         font-size: 85px;
     }
 
-    /*adds a button like structure around the pagelinks in the phone layout*/
+    /*adds a button like structure around the pagelinks in the phone layout
     a.pagelink{
         display:inline-block;
         border:solid;
@@ -65,8 +65,8 @@ a:hover {
         padding-left: 50px;
         padding-right: 50px;
     }
-/*all buttons have the exact same width as the playlist button*/
-   /* #blog{
+all buttons have the exact same width as the playlist button
+    #blog{
         padding-left: 117px;
         padding-right: 117px;
     }
