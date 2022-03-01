@@ -33,7 +33,11 @@ a:hover{
         font-size: 100px;
     }
 
+    .explain{
+        font-size: 65px;
+    }
+
     p {
-        font-size: 80px
+        font-size: 75px;
     }
 }
