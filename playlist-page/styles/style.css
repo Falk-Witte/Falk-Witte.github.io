@@ -28,7 +28,7 @@ a:hover{
     text-decoration:underline;
 }
 /*change font size for smaller windows or mobile phones*/
-@media (max-width: 70em) {
+@media (max-aspect-ratio:3/4) {
     h1 {
         font-size: 100px;
     }
