@@ -66,7 +66,7 @@ a:hover {
         padding-right: 50px;
     }
 /*all buttons have the exact same width as the playlist button*/
-    #blog{
+   /* #blog{
         padding-left: 117px;
         padding-right: 117px;
     }
@@ -79,6 +79,6 @@ a:hover {
     #movie {
         padding-left: 69px;
         padding-right:69px;
-    }
+    }*/
 
 }
