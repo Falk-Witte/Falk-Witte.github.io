@@ -14,7 +14,7 @@ h1 {
     line-height: 3;
 }
 
-h1.headerlink:hover{
+h1:hover{
     color:brown;
 }
 
@@ -38,7 +38,6 @@ a {
 
 a:hover {
     color:brown;
-    text-decoration:unerline;
 }
 
 /*change font size for smaller windows or mobile phones*/
@@ -54,6 +53,17 @@ a:hover {
 
     p:hover {
         font-size: 85px;
+    }
+
+    /*adds a button like structure around the pagelinks in the phone layout*/
+    a.pagelink{
+        display:inline-block;
+        border:solid;
+        border-color:black;
+        border-width: 5px;
+        border-radius: 30px;
+        padding-left: 50px;
+        padding-right: 50px;
     }
 
 }
