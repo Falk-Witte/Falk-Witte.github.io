@@ -7,17 +7,20 @@ body {
     padding-top: 90px;
 }
 
-h1 {
+/*header*/
+#headerlink, h1 {
     font-size: 50px;
     color: black;
     text-align: center;
     line-height: 3;
 }
 
-h1:hover{
+
+#headerlink:hover {
     color:brown;
 }
 
+/*page links*/
 p{
     font-size: 30px;
     text-align: center;
@@ -27,10 +30,6 @@ p{
 a {
     color:black;
     text-decoration:none;
-}
-
-a:hover {
-    color:brown;
 }
 
 a.pagelink {
@@ -46,18 +45,21 @@ a.pagelink:hover{
 /*change font size for smaller windows or mobile phones*/
 @media (max-aspect-ratio: 3/4){
 
-    h1 {
+    /*header*/
+    #headerlink, h1 {
         font-size: 100px;
     }
 
-    p {
+    /*pagelink*/
+    a.pagelink, p{
         font-size: 80px;
     }
 
-    a:hover{
+    a.pagelink:hover, p:hover {
         font-size: 85px;
         color:brown;
     }
+
     /*adds a button like structure around the pagelinks in the phone layout*/
     a.pagelink{
         display:inline-block;
@@ -81,5 +83,5 @@ a.pagelink:hover{
         padding-left: 69px;
         padding-right:69px;
     }
-
+     
 }
