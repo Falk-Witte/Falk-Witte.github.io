@@ -55,7 +55,7 @@ a.pagelink:hover{
         font-size: 80px;
     }
 
-    a.pagelink:hover, p:hover {
+    a.pagelink:hover{
         font-size: 85px;
         color:brown;
     }
