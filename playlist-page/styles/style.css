@@ -7,10 +7,17 @@ body {
     background-color: burlywood;
 }
 
+
+/*||pagetext*/
 h1 {
     font-size:50px;
     text-align: center;
     line-height: 3;
+}
+
+h1::selection{
+    background-color:chocolate;
+    color:black;
 }
 
 p {
@@ -19,9 +26,20 @@ p {
     line-height:3;
 }
 
+p::selection{
+    background-color:chocolate;
+    color:black;
+}
+
+/*||pagelinks*/
 a {
     color:rgb(129, 40, 40);
     text-decoration:none;
+}
+
+a::selection{
+    background-color:chocolate;
+    color:black;
 }
 
 a:hover{
