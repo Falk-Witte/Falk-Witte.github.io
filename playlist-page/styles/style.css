@@ -1,12 +1,8 @@
 html {
-    background-color: burlywood;
+    background-color: #14213d;
     font-family: Roboto;
+    color:#e5e5e5;
 }
-
-body {
-    background-color: burlywood;
-}
-
 
 /*||pagetext*/
 h1 {
@@ -17,7 +13,7 @@ h1 {
 
 h1::selection{
     background-color:chocolate;
-    color:black;
+    color:inherit;
 }
 
 p {
@@ -33,8 +29,12 @@ p::selection{
 
 /*||pagelinks*/
 a {
-    color:rgb(129, 40, 40);
+    display:inline-block;
+    color:#fca311;
     text-decoration:none;
+    border:transparent;
+    border-radius:15px;
+    padding: 0px 50px 0px 50px;
 }
 
 a::selection{
@@ -43,7 +43,8 @@ a::selection{
 }
 
 a:hover{
-    text-decoration:underline;
+    font-size:35px;
+    transition-duration:.2s;
 }
 /*change font size for smaller windows or mobile phones*/
 @media (max-aspect-ratio:3/4) {
@@ -63,5 +64,9 @@ a:hover{
         display:inline-block;
         padding-left: 100px;
         padding-right: 100px;
+    }
+
+    a:hover{
+        text-decoration:underline;
     }
 }

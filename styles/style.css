@@ -1,7 +1,7 @@
 html {
     font-family:Roboto;
-    background-color:burlywood;
-    color:black;
+    background-color:#14213d;
+    color:#e5e5e5;
 }
 
 body {
@@ -18,7 +18,7 @@ body {
 
 
 #headerlink:hover {
-    color:brown;
+    color:#fca311;
 }
 
 /*page links*/
@@ -47,7 +47,7 @@ a.pagelink {
 
 a.pagelink:hover{
     transition-duration: .2s;
-    color:brown;
+    color:#fca311;
     font-size: 35px;
 }
 
@@ -74,7 +74,7 @@ a.pagelink:hover{
     /*for after activation*/
     a.pagelink:hover{
         font-size: 85px;
-        color:brown;
+        color:white;
         transition-duration:0s;
     }
 
@@ -82,8 +82,8 @@ a.pagelink:hover{
     a.pagelink{
         display:inline-block;
         border:solid;
-        border-color:#5D3A00;
-        background-color:#5D3A00;
+        border-color:#ca6702;
+        background-color:#ca6702;
         border-width: 5px;
         border-radius: 30px;
         padding-left: 50px;
