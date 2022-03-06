@@ -67,6 +67,7 @@ a.pagelink:hover{
     a.pagelink:hover{
         font-size: 85px;
         color:brown;
+        transition-duration:0s;
     }
 
     /*adds a button like structure around the pagelinks in the phone layout*/
