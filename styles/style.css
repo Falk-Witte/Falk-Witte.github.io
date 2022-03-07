@@ -90,7 +90,8 @@ a.pagelink:hover{
         padding-right: 50px;
         margin: 20px 0px 20px 0px
     }
-    /* all buttons have the exact same width as the playlist button
+    /* all buttons have the exact same width as the playlist button, works just with the Roboto font*/
+    
     #blog{
         padding-left: 117px;
         padding-right: 117px;
@@ -105,5 +106,5 @@ a.pagelink:hover{
         padding-left: 69px;
         padding-right:69px;
     }
-      */
+      
 }
