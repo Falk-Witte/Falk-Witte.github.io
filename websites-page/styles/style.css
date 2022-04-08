@@ -65,17 +65,17 @@ a::selection{
     }
 
     h2{
-        font-size: 60px;
+        font-size: 70px;
     }
 
     
 
     p{
-        font-size:45px;
+        font-size:55px;
     }
     
     a:hover{
-        font-size:65px;
+        font-size:75px;
         text-decoration:underline;
     }
 
