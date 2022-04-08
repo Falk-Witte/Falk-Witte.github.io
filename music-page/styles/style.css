@@ -13,7 +13,7 @@ h1 {
 
 h1::selection{
     background-color:chocolate;
-    color:inherit;
+    color:black;
 }
 
 p {
