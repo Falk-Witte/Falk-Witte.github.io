@@ -7,6 +7,8 @@ html{
 /*||pagetext*/
 body{
     text-align:center;
+    width:1200px;
+    margin: 0 auto;
 }
 
 h1 {
@@ -59,7 +61,12 @@ a::selection{
    color:black; 
 }
 
+/*||Phone layout*/
 @media (max-aspect-ratio:3/4) {
+    body{
+        width:100%;
+    }
+
     h1{
         font-size: 100px;
     }
