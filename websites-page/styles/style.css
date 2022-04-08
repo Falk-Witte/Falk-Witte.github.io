@@ -76,4 +76,7 @@ a::selection{
         padding-left:100px;
         padding-right:100px;
     }
+    a:hover{
+        font-size:75px;
+    }
 }
