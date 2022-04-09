@@ -52,8 +52,7 @@ a{
 }
 
 a:hover{
-    font-size:45px;
-    transition-duration:.2s;
+    text-decoration:underline;
 }
 
 a::selection{
@@ -84,6 +83,6 @@ a::selection{
         padding-right:100px;
     }
     a:hover{
-        font-size:75px;
+        text-decoration:underline;
     }
 }

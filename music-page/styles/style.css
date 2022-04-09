@@ -47,8 +47,7 @@ a::selection{
 }
 
 a:hover{
-    font-size:35px;
-    transition-duration:.2s;
+    text-decoration:underline;
 }
 /*change font size for smaller windows or mobile phones*/
 @media (max-aspect-ratio:3/4) {
