@@ -44,7 +44,7 @@ a::selection{
 a:hover{
     text-decoration:underline;
 }
-/*change font size for smaller windows or mobile phones*/
+/*mobile phone layout */
 @media (max-aspect-ratio:3/4) {
     h1 {
         font-size: 100px;
@@ -52,7 +52,7 @@ a:hover{
 
     .explain{
         text-align:left;
-        font-size: 70px;
+        font-size: 55px;
         line-height:2;
         margin-left:20px;
         margin-right:20px;
