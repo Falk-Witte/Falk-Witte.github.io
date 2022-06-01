@@ -1,18 +1,135 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <link rel="icon" href="icon/favicon-256x256.png">
+        <meta name="author" content="Falk Witte">
+        <meta name="description" content="This is my blog page">
         <link href="styles/style.css" rel="stylesheet">
         <meta charset="utf-8">
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300&display=swap" rel="stylesheet">         
-        <title>Falk Witte</title>
+        <link href="icon/favicon-256x256.png" rel="icon">
+        <link href="https://fonts.googleapis.com/css2?family=Inconsolata&display=swap" rel="stylesheet"> 
+        <title>Blog</title>
+        <style>
+            html{
+                background-color:black;
+                font-family: 'Inconsolata', monospace; 
+            }
+
+            body{
+                color:whitesmoke;
+                width:600px;
+                margin:0 auto;
+            }
+
+            /*||text style*/            
+            #blogpost{
+                color:whitesmoke;
+                font-size:20px;
+                margin-top:10px;
+                margin-bottom:10px;
+                margin-left:15px;
+            }
+
+            p{
+                font-size:28px;
+            }
+            
+            #post {
+                color:black;
+
+            }
+            a {
+                text-decoration:none;
+            }
+
+            a:hover{
+                text-decoration:underline;
+            }
+
+            a:active{
+                color:black;
+            }
+
+            a:visited{
+                color:#5446ce;
+            }
+
+            /*||Header style*/      
+            #header{
+                justify-content: space-between;
+                align-items: baseline;
+                display:flex;
+                margin-top:50px;
+            }
+
+            h1{
+                font-size:40px;
+                margin-bottom:0px;
+                margin-left:0;
+            }
+            
+            ul{
+                list-style:none;
+            }
+
+            li{
+                display:inline;
+                padding-left:5px;
+                font-size:18px;
+            }
+            
+            /*||Phone layout*/
+            @media (max-aspect-ratio:3/4) { 
+
+               /*||for the header*/ 
+                #header{
+                    display:block;
+                }
+
+                h1{
+                    font-size:100px;
+                    margin-bottom:50px;
+                    text-align:left;
+                }
+
+                ul{
+                    text-align:left;
+                    padding-left:0;
+                }
+                
+                li{
+                    font-size:50px;
+                    padding-right:30px;
+                }
+                /*---------------------------*/
+
+                p{
+                    font-size:72px;
+                    margin-bottom:20px;
+                }
+
+                #blogpost{
+                    font-size:44px;  
+                    text-align:left;                  
+                }
+
+                body{
+                    width:90%;
+                }
+            }
+        </style>
     </head>
     <body>
-        <h1><a id="headerlink" href="https://falk-witte.github.io">Falk Witte</a></h1>
-        <p><a class="pagelink" id="blog" href="https://falk-witte.github.io/blog-page/index.html" title="My blog page">Blog<!--link my blog about many different things | still work in progress but i am on it--></a></p>
-        <p><a class="pagelink" id="github" href="https://github.com/Falk-Witte" title="My Github account" target="_blank">Github<!--Made new github and linked it, who knows what happend with the other ;) --></a></p>
-        <p><a class="pagelink" href="https://falk-witte.github.io/music-page/index.html" title="My favourite Music">Music<!--linked spotify playlists that i listen to--></a></p>
-        <p><a class="pagelink" href="https://falk-witte.github.io/websites-page/index.html" title="Cool Websites">Websites<!--Link some cool websites with a description per site--></a></p>
-<!--        <p><a class="pagelink" id="movie" href="https://falk-witte.github.io/movies-page/" title="My favourite Movies">Movies<!--linked a list of Movies that ive seen and i recommend</a></p>-->
+        <div id="header">
+            <h1>Falk Witte</h1>
+            <ul>
+                <li><a href="https://falk-witte.github.io">Main-site</a></li>
+                <li><a href="https://github.com/Falk-Witte" target="_blank">github</a></li>
+            </ul>
+        </div>
+        <div id="content">
+            <p>Blog Posts:</p>
+            <p id="blogpost">2022-04-17 - <a href="https://Falk-Witte.github.io/ip-blog.html">What is an IP-address?</a></p>
+            <p id="blogpost">2022-05-31 - <a href="https://Falk-Witte.github.io/2022-05-31.html">Hacking Journey p1</a></p>
+        </div>
     </body>
 </html>
